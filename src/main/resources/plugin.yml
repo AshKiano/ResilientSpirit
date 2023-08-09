@@ -1,0 +1,6 @@
+name: ResilientSpirit
+version: '${project.version}'
+main: com.ashkiano.resilientspirit.ResilientSpirit
+api-version: '1.16'
+author: AshKiano
+description: Grants Resistance 5 effect for 10 seconds when using a totem of undying.
