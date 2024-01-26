@@ -19,7 +19,8 @@ public class ResilientSpirit extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
         Metrics metrics = new Metrics(this, 19227);
 
-        System.out.println("Thank you for using the ResilientSpirit plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://paypal.me/josefvyskocil");
+        this.getLogger().info("Thank you for using the ResilientSpirit plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
+
     }
 
     @EventHandler
